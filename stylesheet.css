@@ -1,0 +1,88 @@
+body{
+    font-family: "Raleway", sans-serif;
+    background: linear-gradient(to right, rgb(224, 101, 101) 0%,rgb(48, 10, 10) 50%);
+}
+
+.container{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    top: -52px;
+    width: 350px;
+    transform: translateX(-50%);
+    background-color: rgb(15, 2, 5);
+    color: #fff;
+    font-weight: 100;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.box {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.box p {
+    font-weight: 500;
+    font-size: 18px;
+}
+ 
+input,
+select {
+    width: 85%;
+    border: none;
+    border: 1px solid #000000;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 5px grey inset;
+}
+
+
+input:focus,
+select:focus {
+    border: 1px solid #ffe600;
+    outline: none;
+}
+ 
+select {
+    width: 88% !important;
+}
+ 
+button {
+    margin-top: 35px;
+    margin-left: 75px;
+    width: 150px;
+    height: 50px;
+    background-color: #df0c4b;
+    color: white;
+    font-size: 16px;
+    border: 2px solid rgb(62, 62, 184);
+    border-radius: 5px;
+}
+ 
+.tip {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+#total {
+    font-size: 24px;
+}
